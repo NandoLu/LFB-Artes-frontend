@@ -100,13 +100,6 @@ const Catalogo = () => {
                                     <h3 className="marquee-text text-sm sm:text-base font-semibold text-white leading-tight">
                                         {product.title}
                                     </h3>
-
-                                    {/* Renderiza a cópia apenas se o título for longo (para o loop) */}
-                                    {isLongTitle && (
-                                        <h3 className="marquee-text text-sm sm:text-base font-semibold text-white leading-tight">
-                                            {product.title}
-                                        </h3>
-                                    )}
                                 </div>
 
                                 {/* Exibe APENAS INDISPONÍVEL ou o preço/botão */}

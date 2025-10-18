@@ -55,7 +55,7 @@ export const products: Product[] = [
         price: "R$ 105,00",
         imgSrc: "/quadros/tempestade-no-mar-da-galileia.jpg",
         alt: "Tempestade no mar da Galileia",
-        sold: true
+        sold: false
     },
     {
         id: 7,
