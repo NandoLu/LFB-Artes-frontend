@@ -118,7 +118,7 @@ const Catalogo = () => {
                       className="w-full block text-center bg-green-600 hover:bg-green-700 text-white text-xs sm:text-sm py-1 rounded transition duration-200"
                       onClick={() => handleBuyClick(product.title)}
                     >
-                      ENVIAR MENSAGEM (WhatsApp)
+                      ENVIAR MENSAGEM
                     </button>
                   </>
                 )}
